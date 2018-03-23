@@ -34,18 +34,54 @@
 // console.log(total);
 
 
-// for (var i=1; i <=30; i++) {
+for (var i=1; i <=100; i++) {
     
-//     if (i % 15 == 0)
-//     console.log("Fizzbuzz");
-//     else if (i % 5 == 0)
-//     console.log("Buzz");
-//     else if (i % 3 == 0)
-//     console.log("Fizz");
-//     else 
-//     console.log(i);
+    if (i % 15 == 0)
+    console.log("Fizzbuzz");
+    else if (i % 5 == 0)
+    console.log("Buzz");
+    else if (i % 3 == 0)
+    console.log("Fizz");
+    else 
+    console.log(i);
+}
+
+
+// for (i=0;i<100;) console.log((++i%3?'':'Fizz') + (i%5?'':'Buzz')||i)
+
+
+// const strawberries = {
+//     quantity: 6,
+//     price: .89,
+//     weight: .45
+// }
+// const bananas = {
+//     quantity: 6,
+//     price: 1.45
+// }
+// const pancakeMix = {
+//     quantity: 1,
+//     price: 3.25
+// }
+// const syrup = {
+//     quantity: 1,
+//     price: 2.89
 // }
 
+// function groceryList() {
+//     let total = bananas.price + pancakeMix.price + syrup.price;
+//     console.log(total);
+//     return total;
+// }
 
-for (i=0;i<100;) console.log((++i%3?'':'Fizz') + (i%5?'':'Buzz')||i)
+// groceryList();
+
+// function strawberryWeight() {
+//     let strawberryPriceByWeight = strawberries.weight * strawberries.quantity * strawberries.price
+//     console.log(strawberryPriceByWeight);
+//     return strawberryPriceByWeight
+// }
+
+// strawberryWeight();
+
 
